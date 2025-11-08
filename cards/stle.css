@@ -1,0 +1,28 @@
+body {
+            background: linear-gradient(135deg, #000000 30%, #0056b3 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .card {
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+        }
+        .card-header {
+            background-color: transparent;
+            border-bottom: none;
+            font-weight: 600;
+        }
+        .card-body {
+            background-color: #ffffff;
+            color: #212529;
+            border-radius: 0 0 1rem 1rem;
+        }
+        h1.text-center, p.text-center {
+            color: #e9f1ff;
+        }
