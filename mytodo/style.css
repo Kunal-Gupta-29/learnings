@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #fce38a, #f38181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Common box style */
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Input box */
+.input-box {
+    text-align: center;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.input-box button {
+    width: 100%;
+    padding: 10px;
+    background: #f38181;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    background: #e96c6c;
+}
+
+/* List box */
+.list-box {
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.list-box h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Task item */
+li {
+    list-style: none;
+    background: #fff4d6;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Task text */
+li span {
+    flex: 1;
+}
+
+/* Completed task */
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Delete button */
+.delete {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
