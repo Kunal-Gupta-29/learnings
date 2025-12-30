@@ -85,13 +85,16 @@ let scores = [];
 let h2 = document.querySelector("h2");
 let btns = ["red", "yellow", "green", "purple"];
 
-document.addEventListener("keypress", function () {
+function startGame() {
     if (!started) {
-         document.getElementById("rules").style.display = "none";
         started = true;
         levelup();
     }
-});
+}
+
+document.addEventListener("keydown", startGame);
+document.addEventListener("touchstart", startGame);
+
 
 function btnflash(btn) {
     btn.classList.add("flash");
