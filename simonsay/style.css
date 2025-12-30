@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    
 }
 .btn{
     height: 200px;
@@ -28,4 +29,27 @@ body{
 }
 .flash{
     background-color: white;
+}
+#rules{
+    max-width: 420px;
+    margin: 12px auto 24px;
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.6;
+}
+
+#rules h3{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #ddd;
+}
+
+#rules ol{
+    padding-left: 18px;
+    margin: 0;
+}
+
+#rules li{
+    margin-bottom: 4px;
 }
