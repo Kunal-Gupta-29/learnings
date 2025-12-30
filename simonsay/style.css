@@ -6,7 +6,7 @@ body{
     width : 200px;
     border-radius: 20%;
     border: 10px solid black;
-    margin : 15gitpx
+    margin : 15px
 }
 .btn-container{
     display: flex;
@@ -25,4 +25,7 @@ body{
 }
 .green{
     background-color: #63aac0;
+}
+.flash{
+    background-color: white;
 }
